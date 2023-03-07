@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "varese_transport" "\0"
+            VALUE "FileDescription", "DaQui_to_MIND" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "varese_transport" "\0"
+            VALUE "InternalName", "DaQui_to_MIND" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2022 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "varese_transport.exe" "\0"
-            VALUE "ProductName", "varese_transport" "\0"
+            VALUE "OriginalFilename", "DaQui_to_MIND.exe" "\0"
+            VALUE "ProductName", "DaQui_to_MIND" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

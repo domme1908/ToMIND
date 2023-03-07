@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.varese_transport">
+    package="com.example.DaQui_to_MIND">
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -7,7 +7,7 @@
     
 
    <application
-        android:label="Da-Qui: Trasporto pubblico Lombardia"
+        android:label="Da-Qui to MIND"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <meta-data

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:varese_transport/lib/classes/dynamic_autocomplete.dart';
-import 'package:varese_transport/lib/classes/station.dart';
-import 'package:varese_transport/screens/favorites/components/body.dart';
-import 'package:varese_transport/screens/favorites/favorites_screen.dart';
-import 'package:varese_transport/screens/home/components/api_call.dart';
+import 'package:DaQui_to_MIND/lib/classes/dynamic_autocomplete.dart';
+import 'package:DaQui_to_MIND/lib/classes/station.dart';
+import 'package:DaQui_to_MIND/screens/favorites/components/body.dart';
+import 'package:DaQui_to_MIND/screens/favorites/favorites_screen.dart';
+import 'package:DaQui_to_MIND/screens/home/components/api_call.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import '../../../constants.dart';

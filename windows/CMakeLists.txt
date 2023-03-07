@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(varese_transport LANGUAGES CXX)
+project(DaQui_to_MIND LANGUAGES CXX)
 
-set(BINARY_NAME "varese_transport")
+set(BINARY_NAME "DaQui_to_MIND")
 
 cmake_policy(SET CMP0063 NEW)
 

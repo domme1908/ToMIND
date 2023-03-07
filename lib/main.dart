@@ -9,7 +9,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:user_messaging_platform/user_messaging_platform.dart' as UMP;
 
-import 'package:varese_transport/screens/home/components/home_screen.dart';
+import 'package:DaQui_to_MIND/screens/home/components/home_screen.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -39,7 +39,7 @@ class MyApp extends StatefulWidget {
 Future<Locale> setLanguageFromMemory() async {
   SharedPreferences prefs = await SharedPreferences.getInstance();
   if (prefs.containsKey("lang")) return Locale(prefs.getString("lang")!);
-  return Future<Locale>.value(Locale("it"));
+  return Future<Locale>.value(Locale("en"));
 }
 
 class _MyAppState extends State<MyApp> {

@@ -3,8 +3,8 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:varese_transport/constants.dart';
-import 'package:varese_transport/lib/classes/dynamic_autocomplete.dart';
+import 'package:DaQui_to_MIND/constants.dart';
+import 'package:DaQui_to_MIND/lib/classes/dynamic_autocomplete.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import '../../../lib/classes/station.dart';
@@ -35,10 +35,10 @@ class HeaderWithTextfieldsState extends State<HeaderWithTextfields> {
   Widget build(BuildContext context) {
     //Set the initial value for date and time fields to today and now
     dateinput.text = DateFormat('dd.MM.yyyy').format(DateTime.now());
-    timeinput.text = TimeOfDay.now().format(context);
-    //Save same values in the static variables of the APICall
+    timeinput.text = TimeOfDay.now()
+        .to24hours(); //Save same values in the static variables of the APICall
     APICallState.date = DateFormat('dd.MM.yyyy').format(DateTime.now());
-    APICallState.time = TimeOfDay.now().format(context);
+    APICallState.time = TimeOfDay.now().to24hours();
     //Get total size of the screen
     Size size = MediaQuery.of(context).size;
 
@@ -88,7 +88,7 @@ class HeaderWithTextfieldsState extends State<HeaderWithTextfields> {
                   });
               //Always check if the time was correctly set in order to avoid NullPointerExceptions
               if (pickedTime != null) {
-                timeinput.text = pickedTime.format(context);
+                timeinput.text = pickedTime.to24hours();
                 APICallState.time = pickedTime.to24hours();
               }
             } else {
@@ -128,7 +128,7 @@ class HeaderWithTextfieldsState extends State<HeaderWithTextfields> {
           margin: const EdgeInsets.symmetric(horizontal: kDefaultPadding),
           padding: const EdgeInsets.symmetric(horizontal: kDefaultPadding),
           height: 50,
-          width: size.width * 0.40,
+          width: size.width * 0.42,
           decoration: BoxDecoration(
               color: Colors.white,
               borderRadius: BorderRadius.circular(36),
@@ -244,11 +244,13 @@ class HeaderWithTextfieldsState extends State<HeaderWithTextfields> {
                                     ),
                           ),
                           //const Spacer(),
-                          Image.asset(
-                            "assets/images/logo.png",
-                            //Fit oversize logo to screen
-                            scale: 2,
-                          )
+                          Padding(
+                              padding: EdgeInsets.only(right: 25),
+                              child: Image.asset(
+                                "assets/images/logo.png",
+                                //Fit oversize logo to screen
+                                scale: 3,
+                              ))
                         ]),
                   )
                 ]
@@ -256,8 +258,7 @@ class HeaderWithTextfieldsState extends State<HeaderWithTextfields> {
                 +
                 //Append the two text field lists
                 //See below for doc on helper method
-                text_field(size, 120, true, context) +
-                text_field(size, 60, false, context) +
+                text_field(size, 85, true, context) +
                 //Add widget list for time and date
                 <Widget>[
                   Positioned(
@@ -284,7 +285,7 @@ List<Widget> text_field(
     Positioned(
       bottom: positionBottom,
       left: 0,
-      right: 50,
+      right: 0,
       child: Container(
         margin: const EdgeInsets.symmetric(horizontal: kDefaultPadding),
         padding: const EdgeInsets.symmetric(horizontal: 10),
@@ -302,30 +303,5 @@ List<Widget> text_field(
       ),
     ),
     //This widget draws an iconbutton that switches destination with arrival on tap
-    Positioned(
-      bottom: screenSize.height * 0.135,
-      right: 20,
-      child: IconButton(
-        icon: Icon(
-          Icons.swap_vert_circle_sharp,
-          color: Colors.white,
-          size: 50,
-        ),
-        tooltip: 'Cambia partenza e destinazione',
-        onPressed: () {
-          if (APICallState.toStation.station != "null" &&
-              APICallState.toStation.station != "null") {
-            Station temp = APICallState.fromStation;
-            APICallState.fromStation = APICallState.toStation;
-            APICallState.toStation = temp;
-            String tempText =
-                DynamicVTAutocompleteState.textControllerFrom.text;
-            DynamicVTAutocompleteState.textControllerFrom.text =
-                DynamicVTAutocompleteState.textControllerTo.text;
-            DynamicVTAutocompleteState.textControllerTo.text = tempText;
-          }
-        },
-      ),
-    )
   ];
 }

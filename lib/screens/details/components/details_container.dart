@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:varese_transport/constants.dart';
-import 'package:varese_transport/lib/classes/section.dart';
-import 'package:varese_transport/screens/details/components/bus_or_train_details.dart';
-import 'package:varese_transport/screens/details/components/walking_path_button.dart';
+import 'package:DaQui_to_MIND/constants.dart';
+import 'package:DaQui_to_MIND/lib/classes/section.dart';
+import 'package:DaQui_to_MIND/screens/details/components/bus_or_train_details.dart';
+import 'package:DaQui_to_MIND/screens/details/components/walking_path_button.dart';
 
 ///This class is used to get the container that containes all the details on the section of the trip such as line number, manager, train number, etc.
 class DetailsContainer extends StatelessWidget {

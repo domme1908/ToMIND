@@ -50,11 +50,11 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.daQui.daQuiTrasportoLom"
+        applicationId "com.daQui.daquiToMind"
         minSdkVersion flutterMinSdkVersion
         targetSdkVersion flutter.targetSdkVersion
-        versionCode 17
-        versionName "1.4"
+        versionCode 3
+        versionName "1.2"
     }
 
    signingConfigs {

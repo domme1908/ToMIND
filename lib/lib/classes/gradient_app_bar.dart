@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:varese_transport/constants.dart';
+import 'package:DaQui_to_MIND/constants.dart';
 //This class was developed by Sergi Martínez, source: https://github.com/sergiandreplace/flutter_planets_tutorial/blob/Lesson_3_Planets-Flutter_adding_content_to_the_card/lib/ui/home/home_page.dart
 
 class GradientAppBar extends StatelessWidget {

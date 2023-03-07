@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:varese_transport/lib/classes/section.dart';
+import 'package:DaQui_to_MIND/lib/classes/section.dart';
 
 ///This class returns the logo of the manager of a certain section in the itinerary
 class GetManager extends StatelessWidget {

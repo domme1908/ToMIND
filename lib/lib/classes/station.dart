@@ -10,6 +10,11 @@ class Station {
         type = "null",
         x = "null",
         y = "null";
+  Station.mind()
+      : station = "MIND",
+        type = "",
+        x = "9.099665377696782",
+        y = "45.52220746290034";
   //Constructor
   Station(this.station, this.type, this.x, this.y);
   //Factory from JSON

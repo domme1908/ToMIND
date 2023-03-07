@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:varese_transport/constants.dart';
-import 'package:varese_transport/lib/classes/section.dart';
-import 'package:varese_transport/screens/details/components/get_manager.dart';
+import 'package:DaQui_to_MIND/constants.dart';
+import 'package:DaQui_to_MIND/lib/classes/section.dart';
+import 'package:DaQui_to_MIND/screens/details/components/get_manager.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 ///This widget is the small container between departure and arrival station that contains info

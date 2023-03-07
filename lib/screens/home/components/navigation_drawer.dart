@@ -2,10 +2,10 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:varese_transport/constants.dart';
-import 'package:varese_transport/lib/classes/logo_banner.dart';
-import 'package:varese_transport/screens/home/components/api_call.dart';
-import 'package:varese_transport/screens/menu_items/language_picker.dart';
+import 'package:DaQui_to_MIND/constants.dart';
+import 'package:DaQui_to_MIND/lib/classes/logo_banner.dart';
+import 'package:DaQui_to_MIND/screens/home/components/api_call.dart';
+import 'package:DaQui_to_MIND/screens/menu_items/language_picker.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import '../../menu_items/about.dart';
@@ -43,7 +43,7 @@ class _NavigationDrawerState extends State<NavigationDrawer> {
                   const SizedBox(height: 12),
                   const SizedBox(height: 24),
                   buildMenuItem(
-                    text: 'Vehicles',
+                    text: AppLocalizations.of(context)!.vehicles,
                     icon: Icons.bus_alert,
                     onClicked: () {
                       showDialog(

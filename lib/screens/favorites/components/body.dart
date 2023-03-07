@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:varese_transport/constants.dart';
-import 'package:varese_transport/lib/classes/gradient_app_bar.dart';
-import 'package:varese_transport/screens/favorites/components/fav_list.dart';
-import 'package:varese_transport/screens/favorites/components/select_favs.dart';
+import 'package:DaQui_to_MIND/constants.dart';
+import 'package:DaQui_to_MIND/lib/classes/gradient_app_bar.dart';
+import 'package:DaQui_to_MIND/screens/favorites/components/fav_list.dart';
+import 'package:DaQui_to_MIND/screens/favorites/components/select_favs.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class Body extends StatefulWidget {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:varese_transport/lib/classes/itinerary.dart';
+import 'package:DaQui_to_MIND/lib/classes/itinerary.dart';
 
 //This widget is used beneath the solution details to give a preview of
 //what vehicles are involved in the given solution

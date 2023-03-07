@@ -1,4 +1,4 @@
-import 'package:varese_transport/lib/classes/section.dart';
+import 'package:DaQui_to_MIND/lib/classes/section.dart';
 
 ///This class represents one possible solution for the requested route
 class Itinerary {

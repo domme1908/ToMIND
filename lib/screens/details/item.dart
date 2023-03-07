@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:varese_transport/screens/details/components/details_container.dart';
-import 'package:varese_transport/screens/details/components/station_tile.dart';
-import 'package:varese_transport/lib/classes/section.dart';
+import 'package:DaQui_to_MIND/screens/details/components/details_container.dart';
+import 'package:DaQui_to_MIND/screens/details/components/station_tile.dart';
+import 'package:DaQui_to_MIND/lib/classes/section.dart';
 
 class Item extends StatelessWidget {
   final Section section;

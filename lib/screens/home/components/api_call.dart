@@ -3,11 +3,11 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:varese_transport/constants.dart';
+import 'package:DaQui_to_MIND/constants.dart';
 import 'package:http/http.dart' as http;
-import 'package:varese_transport/lib/classes/itinerary.dart';
-import 'package:varese_transport/screens/home/body.dart';
-import 'package:varese_transport/screens/solutions/solutions_screen.dart';
+import 'package:DaQui_to_MIND/lib/classes/itinerary.dart';
+import 'package:DaQui_to_MIND/screens/home/body.dart';
+import 'package:DaQui_to_MIND/screens/solutions/solutions_screen.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import '../../../lib/classes/station.dart';
@@ -93,7 +93,7 @@ class APICallState extends State<APICall> {
   }
 
   //These variables are used for the API call - they are updated from the body class
-  static Station fromStation = Station.empty(), toStation = Station.empty();
+  static Station fromStation = Station.empty(), toStation = Station.mind();
   static String from = "null", to = "null", time = "", date = "";
   static bool train = true,
       bus = true,

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:varese_transport/lib/classes/gradient_app_bar.dart';
+import 'package:DaQui_to_MIND/lib/classes/gradient_app_bar.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class About extends StatefulWidget {

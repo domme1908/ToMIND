@@ -1,6 +1,6 @@
 {
-    "name": "varese_transport",
-    "short_name": "varese_transport",
+    "name": "DaQui_to_MIND",
+    "short_name": "DaQui_to_MIND",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

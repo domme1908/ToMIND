@@ -3,12 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:syncfusion_flutter_maps/maps.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:varese_transport/constants.dart';
-import 'package:varese_transport/lib/classes/section.dart';
-import 'package:varese_transport/lib/classes/stop.dart';
-import 'package:varese_transport/lib/classes/vehicles_icons.dart';
+import 'package:DaQui_to_MIND/constants.dart';
+import 'package:DaQui_to_MIND/lib/classes/section.dart';
+import 'package:DaQui_to_MIND/lib/classes/stop.dart';
+import 'package:DaQui_to_MIND/lib/classes/vehicles_icons.dart';
 import 'package:http/http.dart' as http;
-import 'package:varese_transport/screens/home/components/api_call.dart';
+import 'package:DaQui_to_MIND/screens/home/components/api_call.dart';
 import '../../../lib/classes/itinerary.dart';
 import '../details_screen.dart';
 

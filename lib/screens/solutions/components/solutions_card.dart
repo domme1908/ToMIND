@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:varese_transport/constants.dart';
-import 'package:varese_transport/lib/classes/itinerary.dart';
-import 'package:varese_transport/lib/classes/vehicles_icons.dart';
-import 'package:varese_transport/screens/details/details_screen.dart';
-import 'package:varese_transport/screens/home/components/api_call.dart';
+import 'package:DaQui_to_MIND/constants.dart';
+import 'package:DaQui_to_MIND/lib/classes/itinerary.dart';
+import 'package:DaQui_to_MIND/lib/classes/vehicles_icons.dart';
+import 'package:DaQui_to_MIND/screens/details/details_screen.dart';
+import 'package:DaQui_to_MIND/screens/home/components/api_call.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class SolutionsCard extends StatelessWidget {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:varese_transport/lib/classes/section.dart';
-import 'package:varese_transport/screens/details/components/get_icon.dart';
+import 'package:DaQui_to_MIND/lib/classes/section.dart';
+import 'package:DaQui_to_MIND/screens/details/components/get_icon.dart';
 
 import '../../../constants.dart';
 
@@ -23,10 +23,19 @@ class StationTile extends StatelessWidget {
       station = section.departure;
       time = section.departureTime;
     } else {
-      padding = 30;
       station = section.arrival;
       time = section.arrivalTime;
-      icon = const Icon(Icons.circle, color: kSecondaryColor, size: 25);
+      if (section.arrival == "MIND") {
+        padding = 15;
+        icon = Image.asset(
+          "assets/images/logo_m.png",
+          scale: 1,
+        );
+      } else {
+        padding = 30;
+
+        icon = const Icon(Icons.circle, color: kSecondaryColor, size: 25);
+      }
     }
     return ListTile(
         contentPadding: EdgeInsets.only(left: padding),

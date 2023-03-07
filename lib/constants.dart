@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 
 //Main colors
-const kSecondaryColor = Color(0xFF79C662);
-const kPrimaryColor = Color(0xFF1C475E);
+const kSecondaryColor = Color(0xFF00A0DF);
+const kPrimaryColor = Color(0xFF001F41);
 const kBackgroundColor = Color.fromARGB(255, 199, 249, 204);
-const kGradientColorOne = Color.fromARGB(255, 64, 78, 206);
-const kGradientColorTwo = Color.fromARGB(255, 8, 85, 16);
+
 const kTextColor = Color.fromARGB(255, 0, 0, 0);
 
 const baseTextStyle = TextStyle(fontFamily: 'Poppins');

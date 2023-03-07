@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:varese_transport/lib/classes/section.dart';
+import 'package:DaQui_to_MIND/lib/classes/section.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 ///This class returns a text button that opens google maps and shows the exact route the user needs to walk

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:sliding_up_panel/sliding_up_panel.dart';
-import 'package:varese_transport/constants.dart';
-import 'package:varese_transport/lib/classes/itinerary.dart';
-import 'package:varese_transport/lib/classes/logo_banner.dart';
-import 'package:varese_transport/screens/details/body.dart';
-import 'package:varese_transport/screens/details/components/map.dart';
-import 'package:varese_transport/screens/details/fullscreen_map.dart';
+import 'package:DaQui_to_MIND/constants.dart';
+import 'package:DaQui_to_MIND/lib/classes/itinerary.dart';
+import 'package:DaQui_to_MIND/lib/classes/logo_banner.dart';
+import 'package:DaQui_to_MIND/screens/details/body.dart';
+import 'package:DaQui_to_MIND/screens/details/components/map.dart';
+import 'package:DaQui_to_MIND/screens/details/fullscreen_map.dart';
 
 class DetailsScreen extends StatefulWidget {
   static var solutionId = -1;

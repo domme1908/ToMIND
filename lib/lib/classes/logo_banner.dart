@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:varese_transport/constants.dart';
+import 'package:DaQui_to_MIND/constants.dart';
 
 //This widget shows a banner containing the logo of Regione Lombarida and E015 Ecosystem
 //as per usage-contract of the Muoversi in Lombardia API
@@ -27,6 +27,18 @@ class LogoBanner extends StatelessWidget {
                 await launch(url);
               },
             ),
+            Padding(
+                padding: EdgeInsets.only(left: 25),
+                child: InkWell(
+                  child: Image.asset(
+                    "assets/images/dmx.png",
+                    scale: 20,
+                  ),
+                  onTap: () async {
+                    const url = "https://www.mindmilano.it/";
+                    await launch(url);
+                  },
+                )),
             InkWell(
               child: Image.asset("assets/images/lombardia_negativo.png"),
               onTap: () async {

@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import 'package:varese_transport/constants.dart';
-import 'package:varese_transport/lib/classes/itinerary.dart';
-import 'package:varese_transport/screens/details/details_screen.dart';
-import 'package:varese_transport/screens/details/item.dart';
+import 'package:DaQui_to_MIND/constants.dart';
+import 'package:DaQui_to_MIND/lib/classes/itinerary.dart';
+import 'package:DaQui_to_MIND/screens/details/details_screen.dart';
+import 'package:DaQui_to_MIND/screens/details/item.dart';
 
 class Body extends StatefulWidget {
   final ScrollController controller;

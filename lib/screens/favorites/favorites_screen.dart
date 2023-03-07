@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:varese_transport/screens/favorites/components/body.dart';
+import 'package:DaQui_to_MIND/screens/favorites/components/body.dart';
 
 class FavScreen extends StatelessWidget {
   bool isFrom;

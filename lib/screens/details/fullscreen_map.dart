@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:varese_transport/constants.dart';
-import 'package:varese_transport/screens/details/components/map.dart';
+import 'package:DaQui_to_MIND/constants.dart';
+import 'package:DaQui_to_MIND/screens/details/components/map.dart';
 
 class FullscreenMap extends StatefulWidget {
   FullscreenMap({Key? key}) : super(key: key);

@@ -3,7 +3,7 @@ EXTENSION NAME : linecounter
 EXTENSION VERSION : 0.2.7
 -------------------------------------------------------------------------------
 count time : 2022-04-05 20:56:33
-count workspace : c:\Users\Domme\Documents\Coding\VT\VareseTransport-1\varese_transport
+count workspace : c:\Users\Domme\Documents\Coding\VT\VareseTransport-1\DaQui_to_MIND
 total files : 2573
 total code lines : 50102
 total comment lines : 2973
@@ -129,7 +129,7 @@ android\app\build.gradle, code is 70, comment is 0, blank is 12.
 android\app\src\debug\AndroidManifest.xml, code is 4, comment is 3, blank is 0.
 android\app\src\main\AndroidManifest.xml, code is 30, comment is 5, blank is 0.
 android\app\src\main\java\io\flutter\plugins\GeneratedPluginRegistrant.java, code is 31, comment is 5, blank is 3.
-android\app\src\main\kotlin\com\example\varese_transport\MainActivity.kt, code is 4, comment is 0, blank is 2.
+android\app\src\main\kotlin\com\example\DaQui_to_MIND\MainActivity.kt, code is 4, comment is 0, blank is 2.
 android\app\src\main\res\drawable-v21\background.png, it is a binary file.
 android\app\src\main\res\drawable-v21\launch_background.xml, code is 6, comment is 0, blank is 0.
 android\app\src\main\res\drawable\background.png, it is a binary file.
@@ -153,7 +153,7 @@ android\gradlew.bat, code is 27, comment is 0, blank is 8.
 android\key.properties, code is 4, comment is 0, blank is 0.
 android\local.properties, code is 6, comment is 0, blank is 0.
 android\settings.gradle, code is 8, comment is 0, blank is 3.
-android\varese_transport_android.iml, code is 29, comment is 0, blank is 0.
+android\DaQui_to_MIND_android.iml, code is 29, comment is 0, blank is 0.
 assets\fonts\Poppins-Regular.ttf, it is a binary file.
 assets\fonts\Poppins-SemiBold.ttf, it is a binary file.
 assets\icons\areadifermata.svg, code is 19, comment is 0, blank is 1.
@@ -201,8 +201,8 @@ assets\images\trenitalia.png, it is a binary file.
 assets\images\trenord.png, it is a binary file.
 assets\images\walk.png, it is a binary file.
 build\4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill, it is a binary file.
-build\app\generated\source\buildConfig\debug\com\example\varese_transport\BuildConfig.java, code is 8, comment is 3, blank is 1.
-build\app\generated\source\buildConfig\release\com\example\varese_transport\BuildConfig.java, code is 8, comment is 3, blank is 1.
+build\app\generated\source\buildConfig\debug\com\example\DaQui_to_MIND\BuildConfig.java, code is 8, comment is 3, blank is 1.
+build\app\generated\source\buildConfig\release\com\example\DaQui_to_MIND\BuildConfig.java, code is 8, comment is 3, blank is 1.
 build\app\intermediates\aapt_proguard_file\release\aapt_rules.txt, code is 4, comment is 0, blank is 0.
 build\app\intermediates\annotation_processor_list\debug\annotationProcessors.json, code is 1, comment is 0, blank is 0.
 build\app\intermediates\annotation_processor_list\release\annotationProcessors.json, code is 1, comment is 0, blank is 0.
@@ -716,9 +716,9 @@ build\app\intermediates\incremental\release-mergeNativeLibs\zip-cache\urZU5oh1iF
 build\app\intermediates\incremental\release-mergeNativeLibs\zip-cache\uSmUkrwKuRg5EHgHsxdIp4x3mnU=, it is a binary file.
 build\app\intermediates\incremental\release-mergeNativeLibs\zip-cache\XY2yc6jeMtveul4L_oRkmkxnLr0=, it is a binary file.
 build\app\intermediates\intermediary_bundle\release\app-release.aab, it is a binary file.
-build\app\intermediates\javac\debug\classes\com\example\varese_transport\BuildConfig.class, it is a binary file.
+build\app\intermediates\javac\debug\classes\com\example\DaQui_to_MIND\BuildConfig.class, it is a binary file.
 build\app\intermediates\javac\debug\classes\io\flutter\plugins\GeneratedPluginRegistrant.class, it is a binary file.
-build\app\intermediates\javac\release\classes\com\example\varese_transport\BuildConfig.class, it is a binary file.
+build\app\intermediates\javac\release\classes\com\example\DaQui_to_MIND\BuildConfig.class, it is a binary file.
 build\app\intermediates\javac\release\classes\io\flutter\plugins\GeneratedPluginRegistrant.class, it is a binary file.
 build\app\intermediates\linked_res_for_bundle\release\bundled-res.ap_, it is a binary file.
 build\app\intermediates\manifest_merge_blame_file\debug\manifest-merger-blame-debug-report.txt, code is 51, comment is 0, blank is 0.
@@ -1167,8 +1167,8 @@ build\app\intermediates\project_dex_archive\debug\out\524dad3c4011de8411c527d731
 build\app\intermediates\project_dex_archive\debug\out\524dad3c4011de8411c527d7315eeecd9522920c6493a423da084ccc0ac5d162_5.jar, it is a binary file.
 build\app\intermediates\project_dex_archive\debug\out\524dad3c4011de8411c527d7315eeecd9522920c6493a423da084ccc0ac5d162_6.jar, it is a binary file.
 build\app\intermediates\project_dex_archive\debug\out\524dad3c4011de8411c527d7315eeecd9522920c6493a423da084ccc0ac5d162_7.jar, it is a binary file.
-build\app\intermediates\project_dex_archive\debug\out\com\example\varese_transport\BuildConfig.dex, it is a binary file.
-build\app\intermediates\project_dex_archive\debug\out\com\example\varese_transport\MainActivity.dex, it is a binary file.
+build\app\intermediates\project_dex_archive\debug\out\com\example\DaQui_to_MIND\BuildConfig.dex, it is a binary file.
+build\app\intermediates\project_dex_archive\debug\out\com\example\DaQui_to_MIND\MainActivity.dex, it is a binary file.
 build\app\intermediates\project_dex_archive\debug\out\io\flutter\plugins\GeneratedPluginRegistrant.dex, it is a binary file.
 build\app\intermediates\res\merged\debug\drawable-v21_background.png.flat, it is a binary file.
 build\app\intermediates\res\merged\debug\drawable-v21_launch_background.xml.flat, it is a binary file.
@@ -1577,9 +1577,9 @@ build\app\outputs\mapping\release\seeds.txt, code is 1304, comment is 0, blank i
 build\app\outputs\mapping\release\usage.txt, code is 8546, comment is 0, blank is 0.
 build\app\tmp\compileDebugJavaWithJavac\source-classes-mapping.txt, code is 4, comment is 0, blank is 0.
 build\app\tmp\compileReleaseJavaWithJavac\source-classes-mapping.txt, code is 4, comment is 0, blank is 0.
-build\app\tmp\kotlin-classes\debug\com\example\varese_transport\MainActivity.class, it is a binary file.
+build\app\tmp\kotlin-classes\debug\com\example\DaQui_to_MIND\MainActivity.class, it is a binary file.
 build\app\tmp\kotlin-classes\debug\META-INF\app_debug.kotlin_module, it is a binary file.
-build\app\tmp\kotlin-classes\release\com\example\varese_transport\MainActivity.class, it is a binary file.
+build\app\tmp\kotlin-classes\release\com\example\DaQui_to_MIND\MainActivity.class, it is a binary file.
 build\app\tmp\kotlin-classes\release\META-INF\app_release.kotlin_module, it is a binary file.
 build\app\tmp\packLibsflutterBuildDebug\MANIFEST.MF, code is 1, comment is 0, blank is 1.
 build\app\tmp\packLibsflutterBuildRelease\MANIFEST.MF, code is 1, comment is 0, blank is 1.
@@ -2498,7 +2498,7 @@ pubspec.lock, code is 502, comment is 1, blank is 0.
 pubspec.yaml, code is 94, comment is 6, blank is 15.
 README.md, code is 10, comment is 3, blank is 6.
 test\widget_test.dart, code is 14, comment is 10, blank is 6.
-varese_transport.iml, code is 18, comment is 0, blank is 0.
+DaQui_to_MIND.iml, code is 18, comment is 0, blank is 0.
 web\favicon.png, it is a binary file.
 web\icons\Icon-192.png, it is a binary file.
 web\icons\Icon-512.png, it is a binary file.
@@ -2635,7 +2635,7 @@ EXTENSION NAME : linecounter
 EXTENSION VERSION : 0.2.7
 -------------------------------------------------------------------------------
 count time : 2022-04-11 00:02:25
-count workspace : c:\Users\Domme\Documents\Coding\VT\VareseTransport-1\varese_transport
+count workspace : c:\Users\Domme\Documents\Coding\VT\VareseTransport-1\DaQui_to_MIND
 total files : 4322
 total code lines : 112410
 total comment lines : 6573
@@ -2746,7 +2746,7 @@ android\app\build.gradle, code is 70, comment is 0, blank is 12.
 android\app\src\debug\AndroidManifest.xml, code is 4, comment is 3, blank is 0.
 android\app\src\main\AndroidManifest.xml, code is 32, comment is 5, blank is 1.
 android\app\src\main\java\io\flutter\plugins\GeneratedPluginRegistrant.java, code is 81, comment is 5, blank is 3.
-android\app\src\main\kotlin\com\example\varese_transport\MainActivity.kt, code is 4, comment is 0, blank is 2.
+android\app\src\main\kotlin\com\example\DaQui_to_MIND\MainActivity.kt, code is 4, comment is 0, blank is 2.
 android\app\src\main\res\drawable-v21\background.png, it is a binary file.
 android\app\src\main\res\drawable-v21\launch_background.xml, code is 6, comment is 0, blank is 0.
 android\app\src\main\res\drawable\background.png, it is a binary file.
@@ -2770,7 +2770,7 @@ android\gradlew.bat, code is 27, comment is 0, blank is 8.
 android\key.properties, code is 4, comment is 0, blank is 0.
 android\local.properties, code is 6, comment is 0, blank is 0.
 android\settings.gradle, code is 8, comment is 0, blank is 3.
-android\varese_transport_android.iml, code is 29, comment is 0, blank is 0.
+android\DaQui_to_MIND_android.iml, code is 29, comment is 0, blank is 0.
 assets\fonts\Poppins-Regular.ttf, it is a binary file.
 assets\fonts\Poppins-SemiBold.ttf, it is a binary file.
 assets\icons\areadifermata.svg, code is 19, comment is 0, blank is 1.
@@ -2858,7 +2858,7 @@ build\774023f12b5a9ddeb4a80896e24cf415\gen_l10n_inputs_and_outputs.json, code is
 build\774023f12b5a9ddeb4a80896e24cf415\gen_localizations.d, code is 1, comment is 0, blank is 0.
 build\774023f12b5a9ddeb4a80896e24cf415\gen_localizations.stamp, code is 1, comment is 0, blank is 0.
 build\774023f12b5a9ddeb4a80896e24cf415\outputs.json, code is 1, comment is 0, blank is 0.
-build\app\generated\source\buildConfig\debug\com\example\varese_transport\BuildConfig.java, code is 8, comment is 3, blank is 1.
+build\app\generated\source\buildConfig\debug\com\example\DaQui_to_MIND\BuildConfig.java, code is 8, comment is 3, blank is 1.
 build\app\intermediates\annotation_processor_list\debug\annotationProcessors.json, code is 1, comment is 0, blank is 0.
 build\app\intermediates\compatible_screen_manifest\debug\output-metadata.json, code is 10, comment is 0, blank is 0.
 build\app\intermediates\compile_and_runtime_not_namespaced_r_class_jar\debug\R.jar, it is a binary file.
@@ -3475,7 +3475,7 @@ build\app\intermediates\incremental\mergeDebugShaders\merger.xml, code is 2, com
 build\app\intermediates\incremental\packageDebug\tmp\debug\dex-renamer-state.txt, code is 55, comment is 0, blank is 0.
 build\app\intermediates\incremental\packageDebug\tmp\debug\zip-cache\androidResources, it is a binary file.
 build\app\intermediates\incremental\packageDebug\tmp\debug\zip-cache\javaResources0, it is a binary file.
-build\app\intermediates\javac\debug\classes\com\example\varese_transport\BuildConfig.class, it is a binary file.
+build\app\intermediates\javac\debug\classes\com\example\DaQui_to_MIND\BuildConfig.class, it is a binary file.
 build\app\intermediates\javac\debug\classes\io\flutter\plugins\GeneratedPluginRegistrant.class, it is a binary file.
 build\app\intermediates\manifest_merge_blame_file\debug\manifest-merger-blame-debug-report.txt, code is 101, comment is 0, blank is 0.
 build\app\intermediates\merged_assets\debug\out\flutter_assets\AssetManifest.json, code is 1, comment is 0, blank is 0.
@@ -3729,8 +3729,8 @@ build\app\intermediates\project_dex_archive\debug\out\ceb2c3ba0f91d1c01d518ca511
 build\app\intermediates\project_dex_archive\debug\out\ceb2c3ba0f91d1c01d518ca511c640b92fca82c020dcdec047a6dae1359e442d_5.jar, it is a binary file.
 build\app\intermediates\project_dex_archive\debug\out\ceb2c3ba0f91d1c01d518ca511c640b92fca82c020dcdec047a6dae1359e442d_6.jar, it is a binary file.
 build\app\intermediates\project_dex_archive\debug\out\ceb2c3ba0f91d1c01d518ca511c640b92fca82c020dcdec047a6dae1359e442d_7.jar, it is a binary file.
-build\app\intermediates\project_dex_archive\debug\out\com\example\varese_transport\BuildConfig.dex, it is a binary file.
-build\app\intermediates\project_dex_archive\debug\out\com\example\varese_transport\MainActivity.dex, it is a binary file.
+build\app\intermediates\project_dex_archive\debug\out\com\example\DaQui_to_MIND\BuildConfig.dex, it is a binary file.
+build\app\intermediates\project_dex_archive\debug\out\com\example\DaQui_to_MIND\MainActivity.dex, it is a binary file.
 build\app\intermediates\project_dex_archive\debug\out\io\flutter\plugins\GeneratedPluginRegistrant.dex, it is a binary file.
 build\app\intermediates\res\merged\debug\drawable-v21_background.png.flat, it is a binary file.
 build\app\intermediates\res\merged\debug\drawable-v21_launch_background.xml.flat, it is a binary file.
@@ -3948,7 +3948,7 @@ build\app\outputs\flutter-apk\app.apk, it is a binary file.
 build\app\outputs\flutter-apk\app.apk.sha1, code is 1, comment is 0, blank is 0.
 build\app\outputs\logs\manifest-merger-debug-report.txt, code is 465, comment is 0, blank is 0.
 build\app\tmp\compileDebugJavaWithJavac\source-classes-mapping.txt, code is 4, comment is 0, blank is 0.
-build\app\tmp\kotlin-classes\debug\com\example\varese_transport\MainActivity.class, it is a binary file.
+build\app\tmp\kotlin-classes\debug\com\example\DaQui_to_MIND\MainActivity.class, it is a binary file.
 build\app\tmp\kotlin-classes\debug\META-INF\app_debug.kotlin_module, it is a binary file.
 build\app\tmp\packLibsflutterBuildDebug\MANIFEST.MF, code is 1, comment is 0, blank is 1.
 build\c075001b96339384a97db4862b8ab8db.cache.dill.track.dill, it is a binary file.
@@ -6847,7 +6847,7 @@ pubspec.lock, code is 983, comment is 1, blank is 0.
 pubspec.yaml, code is 109, comment is 6, blank is 11.
 README.md, code is 10, comment is 3, blank is 6.
 test\widget_test.dart, code is 14, comment is 10, blank is 6.
-varese_transport.iml, code is 18, comment is 0, blank is 0.
+DaQui_to_MIND.iml, code is 18, comment is 0, blank is 0.
 web\favicon.png, it is a binary file.
 web\icons\Icon-192.png, it is a binary file.
 web\icons\Icon-512.png, it is a binary file.
@@ -7019,7 +7019,7 @@ EXTENSION NAME : linecounter
 EXTENSION VERSION : 0.2.7
 -------------------------------------------------------------------------------
 count time : 2022-04-18 23:25:16
-count workspace : c:\Users\Domme\Documents\Coding\VT\VareseTransport-1\varese_transport
+count workspace : c:\Users\Domme\Documents\Coding\VT\VareseTransport-1\DaQui_to_MIND
 total files : 8181
 total code lines : 343225
 total comment lines : 17534
@@ -7155,7 +7155,7 @@ android\app\build.gradle, code is 70, comment is 0, blank is 12.
 android\app\src\debug\AndroidManifest.xml, code is 4, comment is 3, blank is 0.
 android\app\src\main\AndroidManifest.xml, code is 35, comment is 5, blank is 1.
 android\app\src\main\java\io\flutter\plugins\GeneratedPluginRegistrant.java, code is 96, comment is 5, blank is 3.
-android\app\src\main\kotlin\com\example\varese_transport\MainActivity.kt, code is 4, comment is 0, blank is 2.
+android\app\src\main\kotlin\com\example\DaQui_to_MIND\MainActivity.kt, code is 4, comment is 0, blank is 2.
 android\app\src\main\res\drawable-v21\background.png, it is a binary file.
 android\app\src\main\res\drawable-v21\launch_background.xml, code is 6, comment is 0, blank is 0.
 android\app\src\main\res\drawable\background.png, it is a binary file.
@@ -7179,7 +7179,7 @@ android\gradlew.bat, code is 27, comment is 0, blank is 8.
 android\key.properties, code is 4, comment is 0, blank is 0.
 android\local.properties, code is 6, comment is 0, blank is 0.
 android\settings.gradle, code is 8, comment is 0, blank is 3.
-android\varese_transport_android.iml, code is 29, comment is 0, blank is 0.
+android\DaQui_to_MIND_android.iml, code is 29, comment is 0, blank is 0.
 assets\fonts\Poppins-Regular.ttf, it is a binary file.
 assets\fonts\Poppins-SemiBold.ttf, it is a binary file.
 assets\icons\areadifermata.svg, code is 19, comment is 0, blank is 1.
@@ -7314,8 +7314,8 @@ build\admob_consent\intermediates\symbol_list_with_package_name\debug\package-aw
 build\admob_consent\outputs\aar\admob_consent-debug.aar, it is a binary file.
 build\admob_consent\outputs\logs\manifest-merger-debug-report.txt, code is 19, comment is 0, blank is 0.
 build\admob_consent\tmp\compileDebugJavaWithJavac\source-classes-mapping.txt, code is 10, comment is 0, blank is 0.
-build\app\generated\source\buildConfig\debug\com\example\varese_transport\BuildConfig.java, code is 8, comment is 3, blank is 1.
-build\app\generated\source\buildConfig\release\com\example\varese_transport\BuildConfig.java, code is 8, comment is 3, blank is 1.
+build\app\generated\source\buildConfig\debug\com\example\DaQui_to_MIND\BuildConfig.java, code is 8, comment is 3, blank is 1.
+build\app\generated\source\buildConfig\release\com\example\DaQui_to_MIND\BuildConfig.java, code is 8, comment is 3, blank is 1.
 build\app\intermediates\aapt_proguard_file\release\aapt_rules.txt, code is 55, comment is 0, blank is 48.
 build\app\intermediates\annotation_processor_list\debug\annotationProcessors.json, code is 1, comment is 0, blank is 0.
 build\app\intermediates\annotation_processor_list\release\annotationProcessors.json, code is 1, comment is 0, blank is 0.
@@ -8498,9 +8498,9 @@ build\app\intermediates\incremental\release-mergeNativeLibs\zip-cache\yTEnFPt2zT
 build\app\intermediates\incremental\release-mergeNativeLibs\zip-cache\zcQJRLSRVvfeNr2E1fDm+Bk98m8=, it is a binary file.
 build\app\intermediates\incremental\release-mergeNativeLibs\zip-cache\zNJGrg8vYIrGW8OrDkF3dWCUU2s=, it is a binary file.
 build\app\intermediates\intermediary_bundle\release\app-release.aab, it is a binary file.
-build\app\intermediates\javac\debug\classes\com\example\varese_transport\BuildConfig.class, it is a binary file.
+build\app\intermediates\javac\debug\classes\com\example\DaQui_to_MIND\BuildConfig.class, it is a binary file.
 build\app\intermediates\javac\debug\classes\io\flutter\plugins\GeneratedPluginRegistrant.class, it is a binary file.
-build\app\intermediates\javac\release\classes\com\example\varese_transport\BuildConfig.class, it is a binary file.
+build\app\intermediates\javac\release\classes\com\example\DaQui_to_MIND\BuildConfig.class, it is a binary file.
 build\app\intermediates\javac\release\classes\io\flutter\plugins\GeneratedPluginRegistrant.class, it is a binary file.
 build\app\intermediates\linked_res_for_bundle\release\bundled-res.ap_, it is a binary file.
 build\app\intermediates\manifest_merge_blame_file\debug\manifest-merger-blame-debug-report.txt, code is 143, comment is 0, blank is 0.
@@ -9853,8 +9853,8 @@ build\app\intermediates\processed_res\release\out\resources-release.ap_, it is a
 build\app\intermediates\proguard-files\proguard-android-optimize.txt-4.1.0, code is 42, comment is 1, blank is 12.
 build\app\intermediates\proguard-files\proguard-android.txt-4.1.0, code is 53, comment is 3, blank is 11.
 build\app\intermediates\proguard-files\proguard-defaults.txt-4.1.0, code is 14, comment is 98, blank is 1.
-build\app\intermediates\project_dex_archive\debug\out\com\example\varese_transport\BuildConfig.dex, it is a binary file.
-build\app\intermediates\project_dex_archive\debug\out\com\example\varese_transport\MainActivity.dex, it is a binary file.
+build\app\intermediates\project_dex_archive\debug\out\com\example\DaQui_to_MIND\BuildConfig.dex, it is a binary file.
+build\app\intermediates\project_dex_archive\debug\out\com\example\DaQui_to_MIND\MainActivity.dex, it is a binary file.
 build\app\intermediates\project_dex_archive\debug\out\fba8d058e1ce1e22694ca027b45cd5e56047903f082e28fae8d50688833c27d4_0.jar, it is a binary file.
 build\app\intermediates\project_dex_archive\debug\out\fba8d058e1ce1e22694ca027b45cd5e56047903f082e28fae8d50688833c27d4_1.jar, it is a binary file.
 build\app\intermediates\project_dex_archive\debug\out\fba8d058e1ce1e22694ca027b45cd5e56047903f082e28fae8d50688833c27d4_2.jar, it is a binary file.
@@ -10715,9 +10715,9 @@ build\app\outputs\mapping\release\seeds.txt, code is 3331, comment is 0, blank i
 build\app\outputs\mapping\release\usage.txt, code is 47558, comment is 0, blank is 0.
 build\app\tmp\compileDebugJavaWithJavac\source-classes-mapping.txt, code is 4, comment is 0, blank is 0.
 build\app\tmp\compileReleaseJavaWithJavac\source-classes-mapping.txt, code is 4, comment is 0, blank is 0.
-build\app\tmp\kotlin-classes\debug\com\example\varese_transport\MainActivity.class, it is a binary file.
+build\app\tmp\kotlin-classes\debug\com\example\DaQui_to_MIND\MainActivity.class, it is a binary file.
 build\app\tmp\kotlin-classes\debug\META-INF\app_debug.kotlin_module, it is a binary file.
-build\app\tmp\kotlin-classes\release\com\example\varese_transport\MainActivity.class, it is a binary file.
+build\app\tmp\kotlin-classes\release\com\example\DaQui_to_MIND\MainActivity.class, it is a binary file.
 build\app\tmp\kotlin-classes\release\META-INF\app_release.kotlin_module, it is a binary file.
 build\app\tmp\packLibsflutterBuildDebug\MANIFEST.MF, code is 1, comment is 0, blank is 1.
 build\app\tmp\packLibsflutterBuildRelease\MANIFEST.MF, code is 1, comment is 0, blank is 1.
@@ -15092,7 +15092,7 @@ pubspec.lock, code is 1004, comment is 1, blank is 0.
 pubspec.yaml, code is 112, comment is 6, blank is 11.
 README.md, code is 10, comment is 3, blank is 6.
 test\widget_test.dart, code is 16, comment is 10, blank is 6.
-varese_transport.iml, code is 18, comment is 0, blank is 0.
+DaQui_to_MIND.iml, code is 18, comment is 0, blank is 0.
 web\favicon.png, it is a binary file.
 web\icons\Icon-192.png, it is a binary file.
 web\icons\Icon-512.png, it is a binary file.
@@ -15264,7 +15264,7 @@ EXTENSION NAME : linecounter
 EXTENSION VERSION : 0.2.7
 -------------------------------------------------------------------------------
 count time : 2022-04-24 00:37:46
-count workspace : c:\Users\Domme\Documents\Coding\VT\VareseTransport-1\varese_transport
+count workspace : c:\Users\Domme\Documents\Coding\VT\VareseTransport-1\DaQui_to_MIND
 total files : 8185
 total code lines : 372070
 total comment lines : 15137
@@ -15353,7 +15353,7 @@ android\app\build.gradle, code is 70, comment is 0, blank is 12.
 android\app\src\debug\AndroidManifest.xml, code is 4, comment is 3, blank is 0.
 android\app\src\main\AndroidManifest.xml, code is 35, comment is 5, blank is 1.
 android\app\src\main\java\io\flutter\plugins\GeneratedPluginRegistrant.java, code is 96, comment is 5, blank is 3.
-android\app\src\main\kotlin\com\example\varese_transport\MainActivity.kt, code is 4, comment is 0, blank is 2.
+android\app\src\main\kotlin\com\example\DaQui_to_MIND\MainActivity.kt, code is 4, comment is 0, blank is 2.
 android\app\src\main\res\drawable-v21\background.png, it is a binary file.
 android\app\src\main\res\drawable-v21\launch_background.xml, code is 6, comment is 0, blank is 0.
 android\app\src\main\res\drawable\background.png, it is a binary file.
@@ -15377,7 +15377,7 @@ android\gradlew.bat, code is 27, comment is 0, blank is 8.
 android\key.properties, code is 4, comment is 0, blank is 0.
 android\local.properties, code is 6, comment is 0, blank is 0.
 android\settings.gradle, code is 8, comment is 0, blank is 3.
-android\varese_transport_android.iml, code is 29, comment is 0, blank is 0.
+android\DaQui_to_MIND_android.iml, code is 29, comment is 0, blank is 0.
 assets\fonts\Poppins-Regular.ttf, it is a binary file.
 assets\fonts\Poppins-SemiBold.ttf, it is a binary file.
 assets\icons\areadifermata.svg, code is 19, comment is 0, blank is 1.
@@ -16261,9 +16261,9 @@ build\app\intermediates\incremental\release-mergeNativeLibs\zip-cache\yTEnFPt2zT
 build\app\intermediates\incremental\release-mergeNativeLibs\zip-cache\zcQJRLSRVvfeNr2E1fDm+Bk98m8=, it is a binary file.
 build\app\intermediates\incremental\release-mergeNativeLibs\zip-cache\zNJGrg8vYIrGW8OrDkF3dWCUU2s=, it is a binary file.
 build\app\intermediates\intermediary_bundle\release\app-release.aab, it is a binary file.
-build\app\intermediates\javac\debug\classes\com\example\varese_transport\BuildConfig.class, it is a binary file.
+build\app\intermediates\javac\debug\classes\com\example\DaQui_to_MIND\BuildConfig.class, it is a binary file.
 build\app\intermediates\javac\debug\classes\io\flutter\plugins\GeneratedPluginRegistrant.class, it is a binary file.
-build\app\intermediates\javac\release\classes\com\example\varese_transport\BuildConfig.class, it is a binary file.
+build\app\intermediates\javac\release\classes\com\example\DaQui_to_MIND\BuildConfig.class, it is a binary file.
 build\app\intermediates\javac\release\classes\io\flutter\plugins\GeneratedPluginRegistrant.class, it is a binary file.
 build\app\intermediates\linked_res_for_bundle\release\bundled-res.ap_, it is a binary file.
 build\app\intermediates\manifest_merge_blame_file\debug\manifest-merger-blame-debug-report.txt, code is 143, comment is 0, blank is 0.
@@ -17622,8 +17622,8 @@ build\app\intermediates\processed_res\release\out\resources-release.ap_, it is a
 build\app\intermediates\proguard-files\proguard-android-optimize.txt-4.1.0, code is 42, comment is 1, blank is 12.
 build\app\intermediates\proguard-files\proguard-android.txt-4.1.0, code is 53, comment is 3, blank is 11.
 build\app\intermediates\proguard-files\proguard-defaults.txt-4.1.0, code is 14, comment is 98, blank is 1.
-build\app\intermediates\project_dex_archive\debug\out\com\example\varese_transport\BuildConfig.dex, it is a binary file.
-build\app\intermediates\project_dex_archive\debug\out\com\example\varese_transport\MainActivity.dex, it is a binary file.
+build\app\intermediates\project_dex_archive\debug\out\com\example\DaQui_to_MIND\BuildConfig.dex, it is a binary file.
+build\app\intermediates\project_dex_archive\debug\out\com\example\DaQui_to_MIND\MainActivity.dex, it is a binary file.
 build\app\intermediates\project_dex_archive\debug\out\fba8d058e1ce1e22694ca027b45cd5e56047903f082e28fae8d50688833c27d4_0.jar, it is a binary file.
 build\app\intermediates\project_dex_archive\debug\out\fba8d058e1ce1e22694ca027b45cd5e56047903f082e28fae8d50688833c27d4_1.jar, it is a binary file.
 build\app\intermediates\project_dex_archive\debug\out\fba8d058e1ce1e22694ca027b45cd5e56047903f082e28fae8d50688833c27d4_2.jar, it is a binary file.
@@ -18792,9 +18792,9 @@ build\app\outputs\mapping\release\seeds.txt, code is 4624, comment is 0, blank i
 build\app\outputs\mapping\release\usage.txt, code is 51536, comment is 0, blank is 0.
 build\app\tmp\compileDebugJavaWithJavac\source-classes-mapping.txt, code is 4, comment is 0, blank is 0.
 build\app\tmp\compileReleaseJavaWithJavac\source-classes-mapping.txt, code is 4, comment is 0, blank is 0.
-build\app\tmp\kotlin-classes\debug\com\example\varese_transport\MainActivity.class, it is a binary file.
+build\app\tmp\kotlin-classes\debug\com\example\DaQui_to_MIND\MainActivity.class, it is a binary file.
 build\app\tmp\kotlin-classes\debug\META-INF\app_debug.kotlin_module, it is a binary file.
-build\app\tmp\kotlin-classes\release\com\example\varese_transport\MainActivity.class, it is a binary file.
+build\app\tmp\kotlin-classes\release\com\example\DaQui_to_MIND\MainActivity.class, it is a binary file.
 build\app\tmp\kotlin-classes\release\META-INF\app_release.kotlin_module, it is a binary file.
 build\app\tmp\packLibsflutterBuildDebug\MANIFEST.MF, code is 1, comment is 0, blank is 1.
 build\app\tmp\packLibsflutterBuildRelease\MANIFEST.MF, code is 1, comment is 0, blank is 1.
@@ -23339,7 +23339,7 @@ pubspec.lock, code is 1011, comment is 1, blank is 0.
 pubspec.yaml, code is 113, comment is 6, blank is 11.
 README.md, code is 10, comment is 3, blank is 6.
 test\widget_test.dart, code is 16, comment is 10, blank is 6.
-varese_transport.iml, code is 18, comment is 0, blank is 0.
+DaQui_to_MIND.iml, code is 18, comment is 0, blank is 0.
 web\favicon.png, it is a binary file.
 web\icons\Icon-192.png, it is a binary file.
 web\icons\Icon-512.png, it is a binary file.
