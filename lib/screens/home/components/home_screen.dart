@@ -1,5 +1,5 @@
 // ignore_for_file: import_of_legacy_library_into_null_safe
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart' hide NavigationDrawer;
 import 'package:DaQui_to_MIND/screens/home/components/api_call.dart';
 import 'package:DaQui_to_MIND/screens/home/components/navigation_drawer.dart';
 import '../body.dart';
